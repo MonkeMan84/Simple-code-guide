@@ -42,4 +42,68 @@
 #print("Sum = " + str(sum))
 
 
-#String 
+#Methods. Below is a method called upper which changes a variable to all upercase.
+#course = "Python for beginners"
+#print(course.upper())
+#print(course.lower())
+#Below is the find method, which sees if the string contains a certain character.
+#print(course.find("y"))
+#You can put replace before the find to replace the character or the parameters with whatever you want.
+#print(course.replace("for", "4"))
+#Below is the in operator which is expressed with "in". This will return a boolean (true or false) answer to see if the string entered is true or false.
+#print("Python" in course)
+
+
+
+
+
+#ARITHMETIC OPERATIONS
+#you can use the following to calculate numbers. For example, +, -, *, /, //
+#The double division gives an integer instead of a float value.
+#print(10 + 3)
+#print(14 * 4)
+#print(31 - 65)
+#print(45/2.3)
+#print(45//2.3)
+#the % gives the remainder of the division problem.
+#print(32%6.3)
+#Exponents are displayed using double asterisks.
+#print(4**3)
+#Augmented assignment operator "x+=x" is something that increments by any value
+#x = 10
+#x+=3
+#print(x)
+
+
+
+
+
+#OPERATOR PRECEDENCE
+#Order of operations and shit. You get it.
+#x = 10 + 3 * 2
+
+
+
+
+
+#COMPARISON OPERATORS 
+#It compares numbers and gives a boolean value
+#You can use >, <, >=, <=, ==, !=
+#== expresses value equality. != indicates not equality.
+#x = 3 > 2
+#y = 3 == 4
+#z = 3 !=4
+#print(x)
+#print(y)
+#print(z)
+
+
+
+
+
+
+#LOGICAL OPERATORS
+#logical operators are operators that can be used to build complex rules and conditions.
+#this will see if all of the parameters that are inside the parenthesis are true or false.
+price = 25
+print(price > 10 and price < 30)
