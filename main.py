@@ -105,5 +105,68 @@
 #LOGICAL OPERATORS
 #logical operators are operators that can be used to build complex rules and conditions.
 #this will see if all of the parameters that are inside the parenthesis are true or false.
-price = 25
-print(price > 10 and price < 30)
+#price = 25
+#print(price > 10 and price < 30)
+#or statements will display a boolean if one of the statements are true
+#price = 30
+#print(price > 10 or price < 1)
+#Not operator will inverse the boolean value.
+
+
+
+
+
+#IF STATEMENTS
+#If statements execute what ever is after the word if or elif (parenthesis optional). If statements are only used once.
+#elif is the else if
+#temp = 20
+#if (temp > 70):
+#  print("It's gonna be a hot day!")
+#elif (temp > 60):
+#  print("It's a nice day.")
+#elif (temp > 40):
+#  print("It's a bit cold.")
+#Else statement is executed when none of the if or elif conditions are met.
+#else:
+#  print("Jet your jackets!")
+#  print("It's pretty cold!")
+#print("Done")
+
+
+
+
+
+#IF STATEMENT EXCERSICE.
+#weight = int(input("Weight: "))
+#unit = input ("Kilograms or Lbs? Type K for kilograms or L for lbs: ")
+#if unit.upper == "K":
+#  converted = weight / 0.45
+#  print("In pounds you weigh: " + str(converted))
+#else:
+#  converted2 = weight * 0.45
+#  print("In Kgs you weigh: " + str(converted2))
+
+
+
+
+
+#WHILE LOOPS
+#While loops end until a certain specification is met.
+#i = 1
+#while i <= 10:
+#  print(i * "*")
+#  i = i + 1
+
+
+
+
+
+
+#LISTS
+#lists are things that can have multiple things inside it. Square brackets are used.
+#names = ["John", "Mary", "Chuck", "Pedro"]
+#print(names)
+#you can print a certain index in the list with the first one being zero.
+#print(names[0])
+#You can change an object in a list with the line below
+#names[0] = "Jon"
